@@ -1,0 +1,12 @@
+vendor/jquery/jquery.min.js
+vendor/noty/js/noty/packaged/jquery.noty.packaged.js
+vendor/hammerjs/hammer.min.js
+vendor/mustache.js/jquery.mustache.js
+vendor/masonry/masonry.pkgd.min.js
+vendor/imagesloaded/imagesloaded.pkgd.min.js
+vendor/slick/slick.min.js
+cookies-warning.min.js
+modules/*
+agence-o/*
+wb-intermat.js
+wb-popup.js

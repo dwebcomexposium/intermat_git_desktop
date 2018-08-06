@@ -1,0 +1,106 @@
+.innovation .main-title-with-link>.main-title,.innovation .main-title
+.actus .main-title-with-link>.main-title,.actus .main-title
+.expertise .main-title-with-link>.main-title,.expertise .main-title{
+    border-bottom: medium none;
+    color: #3f7686;
+    font-family: Gotham SSm,Verdana,sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.29412em;
+    margin-bottom: 0.56818em;
+    margin-top: 1.36364em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+
+.survey #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block label strong {
+    display: block;
+}
+.mod-catal .catal-ex-item.is-top-premium{display:none;}
+
+.main-navigation span.mn-link-text {
+    font-size: 16px;
+}
+
+/* Réglage pop-up */
+
+/** @media (min-width: 768px) **/
+/** .popup__container { **/
+/**    width: 750px; **/
+/**}**/
+/**.popup table {**/
+/**    margin-bottom: 0;**/
+/**}**/
+
+
+
+body.survey #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(6), body.survey #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(7){width: 100%;}
+
+.survey-vote .form-item-radio, .form-item-checkbox {
+    display: inline;
+ }
+
+.survey #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(8) {
+    float: none;
+    display:inline-table
+}
+
+/*.content245965 .layout-2-col .inside div:nth-child(3){padding-top: 180px;}*/
+
+
+.mod-catal .esf-tree.esf-only-one-lvl li {
+    float: none;
+    width: 100%;
+}
+
+.exhibitor-details #zone2 .catal-ed-main-stand .catal-ed-main-stand-title catal-ed-title{display: none;}
+
+.content223828 #zone3 .social-cat-img {
+    background: #ffffff;
+}
+.content275557 #zone3 .social-cat-img {
+    background: #ffffff;
+}
+
+
+.survey #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(8) label {
+    width: 100%;
+}
+
+.survey.content245965 #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(8) label {
+    width: 100%;
+}
+.survey.content245965 form.comexposium-survey-form {
+    height: 1122px;
+}
+.survey.content275572 #zone2 .block-page .inside .sv-main-content .survey-view .comexposium-survey-form .comexposium-survey-page .comexposium-survey-question-block:nth-child(8) label {
+    width: 100%;
+}
+
+.sr-group.sr-group-exponent .sr-item-txt {
+    display: none;
+}
+.sr-group.sr-group-exponent .sr-item-txt:first-child {
+    display: block;
+}
+
+.block {
+    display: inline-block;
+}
+
+.article-content table td {
+    width: 50%;
+}
+
+.mod-catal .btn-primary {
+    background-color: #3f7686;
+}
+
+.produit .mod-catal :not(.gm-style) img {
+    height: auto;
+    width: 74%;
+}
+
+#zone3 .quicklinks ul.unstyled {
+    width: 340px;
+}
