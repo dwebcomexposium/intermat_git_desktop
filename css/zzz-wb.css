@@ -834,3 +834,26 @@ height: 0; border-style: solid; border-width: 28px 67px 0 67px; border-color: #4
 .exhibitor-details #zone2 .catal-ed-main-stand .catal-ed-main-stand-ref {   display: block; }
 
 .modal {   z-index: 99999; }
+
+
+/* ------------------------------------------------------------ *\
+	Evols home
+\* ------------------------------------------------------------ */
+
+.quicklinks.side-navigation a.btn-primary svg { margin-bottom: 15px; }
+
+
+.front .list-articles { width: 100%; }
+body.body-corpo.front #zone1 .block-page.list-articles:nth-child(2) .inside { width: 1260px; }
+@media all and (max-width:1440px) {
+	body.body-corpo.front #zone1 .block-page.list-articles:nth-child(2) .inside { width: 1260px }
+	body.body-corpo.front #zone1 .inside .cxp-pagination .list-grids-with-pagin .grid-la-list .gla-item  { width: 17% }
+}
+@media all and (max-width:1080px) {
+	body.body-corpo.front #zone1 .block-page.list-articles:nth-child(2) .inside {width: 100% }
+	
+
+body.body-corpo.front #zone1 .cxp-pagination .gla-item:nth-child(5) .gla-item-content {	background: url(../img/arrow-bleue.png) no-repeat 52% 90px }
+
+body.body-corpo.front #zone1 .cxp-pagination .gla-item:nth-child(5) h2 {	color: #4ac6e0 }
+
