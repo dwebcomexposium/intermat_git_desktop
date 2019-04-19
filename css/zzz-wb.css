@@ -859,10 +859,6 @@ body.body-corpo.front #zone1 .cxp-pagination .gla-item:nth-child(5) h2 {color: #
 
 body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
 
-@media (max-width: 1250px)
-.site-banner-logo {
-    width: 200px;
-    margin: 20px 0;
-    background: url(/theme/intermat_git_desktop/img/logo-intermat-date.svg) 50%/contain no-repeat;
+@media (max-width: 1250px) {
+    .site-banner-logo { width: 200px; margin: 20px 0; background: url(/theme/intermat_git_desktop/img/logo-intermat-date.svg) 50%/contain no-repeat; }
 }
-
