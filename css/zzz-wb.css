@@ -946,3 +946,6 @@ body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
 	min-height: 44px;
 	width: 100%
 }
+.site-footer .inside .footer-other-member {
+    width: auto;
+}
