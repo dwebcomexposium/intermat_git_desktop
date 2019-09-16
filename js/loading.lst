@@ -8,5 +8,6 @@ vendor/slick/slick.min.js
 cookies-warning.min.js
 modules/*
 agence-o/*
+wb/*
 wb-intermat.js
 wb-popup.js
