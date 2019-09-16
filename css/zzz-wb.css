@@ -2052,7 +2052,8 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 #cxpmClientAccountWidget .widget-icon>span.number, 
 #cxpm-connect-sso-dropdown .widget-icon>span.number { top: -4px !important; right: -10px !important; bottom: auto !important; width: 16px !important; height: 16px !important; padding-left: 0 !important; background: #3b717e !important; font-family: 'Gotham Book', sans-serif; font-size: 9px !important; line-height: 16px; }
 
-.is-stuck #cxpmClientAccountWidget, #cxpmClientAccountWidget .number:empty {display: none; }
+.is-stuck #cxpmClientAccountWidget, #cxpmClientAccountWidget .number:empty {display: none!important; }
+
 
 #cxpmClientAccountWidget:after { content: ''; position: absolute; top: 15px; right: -25px; transform: rotate(45deg); width: 4px; height: 4px; background: #3b717e; }
 
