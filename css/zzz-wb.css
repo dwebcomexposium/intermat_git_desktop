@@ -949,8 +949,11 @@ body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
 .site-footer .inside .footer-other-member {
     width: auto;
 }
+
+
+
 /* ------------------------------------------------------------ *\
-	Reset
+	facelift 2019
 \* ------------------------------------------------------------ */
 
 *,
@@ -1375,6 +1378,8 @@ header.is-stuck.site-banner { position: absolute!important; padding: 14px 0 19px
 .mn-menu-item-367872 { display: none; }
 
 .mn-menu-submenu .mn-link span.mn-link-text { font-weight: normal; }
+.mn-menu-submenu { padding-top: 15px; }
+
 
 @media (max-width: 1400px) {
 	.main-navigation { left: 389px; }
@@ -1728,7 +1733,7 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	Partner
 \* ------------------------------------------------------------ */
 
-.front .partner.block-page { transform: none; display: block; width: 100%; padding: 74px 0 72px; margin: 0; background: none; }
+.front .partner.block-page { transform: none; display: block; width: 100%; padding: 74px 0 20px; margin: 0; background: none; }
 
 .front .block.block-page.partner:before,
 .front .block.block-page.partner:after { display: none; }
@@ -1789,7 +1794,7 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	Section Newsletter
 \* ------------------------------------------------------------ */
 
-.section-newsletter { display: block !important; position: relative; top: auto; left: auto; z-index: 0; transform: translateX(20px); max-width: 1000px; padding: 103px 110px 97px 132px; margin: 0 auto 80px; background: #3b717e; overflow: hidden; }
+.section-newsletter { display: block !important; position: relative; top: auto; left: auto; z-index: 0; transform: translateX(20px); max-width: 1000px; padding: 103px 110px 97px 132px; margin: 100px auto 80px; background: #3b717e; overflow: hidden; }
 .section-newsletter:before { content: ''; position: absolute; top: 0; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 1040px 32px 0; border-color: transparent #fff transparent transparent; }
 .section-newsletter:after { content: ''; position: absolute; top: 0; right: -4px; width: 0; height: 0; border-style: solid; border-width: 0 0 700px 100px; border-color: transparent transparent #fff transparent; }
 .section-newsletter .shell { max-width: 100%; padding: 0; margin: 0; }
@@ -2008,3 +2013,46 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	0% { top: -200px; }
 	100% { top: 0; }
 }
+
+
+
+
+/* ------------------------------------------------------------ *\
+	CXPM Client Account Widget
+\* ------------------------------------------------------------ */
+
+#cxpmClientAccountWidget { position: absolute !important; top: -9px; right: 390px; display: inline-block; vertical-align: top; padding-right: 38px; }
+#cxpmClientAccountWidget:after { content: ''; position: absolute; top: calc(50% + 2px); right: 0; transform: translateY(-50%); width: 1px; height: 22px; background: rgba(35,31,32,.1); }
+#cxpmClientAccountWidget:last-child { padding-right: 0; margin-right: 0; }
+
+#cxpmClientAccountWidget .widget-my-selection { margin-left: 18px; line-height: 1.2 !important; }
+#cxpmClientAccountWidget .widget-my-selection:first-child { margin-left: 0; }
+
+#cxpmClientAccountWidget .widget-text, 
+#cxpm-connect-sso-dropdown .widget-text { padding-top: 0 !important; color: #000;
+}
+
+#cxpmClientAccountWidget .widget-icon, 
+#cxpm-connect-sso-dropdown .widget-icon { position: relative; padding: 0 !important; }
+
+/*  Login  */
+#cxpmClientAccountWidget .cap-icon-user-circle-o { transform: translateY(2px); display: inline-block; width: 12px; height: 15px; margin-right: 10px; background: url(images/profile.svg) no-repeat center; background-size: 100%; }
+#cxpmClientAccountWidget .cap-icon-user-circle-o:before { display: none; }
+
+#cxpmClientAccountWidget .widget-text span a, 
+#cxpm-connect-sso-dropdown .widget-text span a { font-size: 10px !important; line-height: 1; font-weight: 300; letter-spacing: .01em; color: #111617; }
+
+#cxpmClientAccountWidget .widget-text span a:hover, 
+#cxpm-connect-sso-dropdown .widget-text span a:hover { color: #231f20 !important; text-decoration: underline; }
+
+/*  Cart  */
+#cxpmClientAccountWidget .cap-icon-shopping_basket { transform: translateY(2px); display: inline-block; width: 15px; height: 20px; background: url(images/shopping-bag.svg) no-repeat center; background-size: 100%; }
+#cxpmClientAccountWidget .cap-icon-shopping_basket:before { display: none; }
+
+#cxpmClientAccountWidget .widget-icon>span.number, 
+#cxpm-connect-sso-dropdown .widget-icon>span.number { top: -4px !important; right: -10px !important; bottom: auto !important; width: 16px !important; height: 16px !important; padding-left: 0 !important; background: #3b717e !important; font-family: 'Gotham Book', sans-serif; font-size: 9px !important; line-height: 16px; }
+
+.is-stuck #cxpmClientAccountWidget, #cxpmClientAccountWidget .number:empty {display: none; }
+
+#cxpmClientAccountWidget:after { content: ''; position: absolute; top: 15px; right: -25px; transform: rotate(45deg); width: 4px; height: 4px; background: #3b717e; }
+
