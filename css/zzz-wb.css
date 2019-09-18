@@ -2057,3 +2057,4 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 
 #cxpmClientAccountWidget:after { content: ''; position: absolute; top: 15px; right: -25px; transform: rotate(45deg); width: 4px; height: 4px; background: #3b717e; }
 
+html:lang(en) #cxpmClientAccountWidget { right: 350px; }
