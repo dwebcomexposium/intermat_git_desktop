@@ -950,8 +950,6 @@ body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
     width: auto;
 }
 
-
-
 /* ------------------------------------------------------------ *\
 	facelift 2019
 \* ------------------------------------------------------------ */
@@ -2021,7 +2019,7 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	CXPM Client Account Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute !important; top: -9px; right: 380px; display: inline-block; vertical-align: top; padding-right: 38px; }
+#cxpmClientAccountWidget { position: absolute !important; top: -9px; right: 350px; display: inline-block; vertical-align: top; padding-right: 38px; }
 #cxpmClientAccountWidget:after { content: ''; position: absolute; top: calc(50% + 2px); right: 0; transform: translateY(-50%); width: 1px; height: 22px; background: rgba(35,31,32,.1); }
 #cxpmClientAccountWidget:last-child { padding-right: 0; margin-right: 0; }
 
