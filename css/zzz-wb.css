@@ -1837,10 +1837,10 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 
  /*  Checkbox  */
 .section-newsletter .newsletter-form .nf-main-content .inside .optin-container { position: absolute; bottom: 0; right: 0; left: 0; min-height: 41px; }
-.section-newsletter .newsletter-form .nf-main-content .inside .optin-container:before { content: ''; position: absolute; top: 7px; left: 0; width: 13px; height: 13px; border-radius: 2px; background: #fff; pointer-events: none; }
-.section-newsletter .newsletter-form .nf-main-content .inside .optin-container:after { content: ''; position: absolute; top: 9px; left: 2px; width: 9px; height: 9px; background: url(images/check.svg) center no-repeat; background-size: 100%; opacity: 0; visibility: hidden; pointer-events: none; }
+/*.section-newsletter .newsletter-form .nf-main-content .inside .optin-container:before { content: ''; position: absolute; top: 7px; left: 0; width: 13px; height: 13px; border-radius: 2px; background: #fff; pointer-events: none; }*/
+/*.section-newsletter .newsletter-form .nf-main-content .inside .optin-container:after { content: ''; position: absolute; top: 9px; left: 2px; width: 9px; height: 9px; background: url(images/check.svg) center no-repeat; background-size: 100%; opacity: 0; visibility: hidden; pointer-events: none; }*/
 .section-newsletter .newsletter-form .nf-main-content .inside .optin-container .nf-form-input { display: inline-block; width: auto; padding-left: 26px; margin-bottom: 0; cursor: pointer;}
-.section-newsletter .newsletter-form .nf-main-content .inside .optin-container input { display: none; }
+.section-newsletter .newsletter-form .nf-main-content .inside .optin-container input { /*display: none; */ margin-right:10px }
 
 .section-newsletter .newsletter-form .nf-main-content .inside .optin-container.checked:after { opacity: 1; visibility: visible; }
 
@@ -2021,7 +2021,7 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	CXPM Client Account Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute !important; top: -9px; right: 390px; display: inline-block; vertical-align: top; padding-right: 38px; }
+#cxpmClientAccountWidget { position: absolute !important; top: -9px; right: 380px; display: inline-block; vertical-align: top; padding-right: 38px; }
 #cxpmClientAccountWidget:after { content: ''; position: absolute; top: calc(50% + 2px); right: 0; transform: translateY(-50%); width: 1px; height: 22px; background: rgba(35,31,32,.1); }
 #cxpmClientAccountWidget:last-child { padding-right: 0; margin-right: 0; }
 
@@ -2054,7 +2054,8 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 
 .is-stuck #cxpmClientAccountWidget, #cxpmClientAccountWidget .number:empty {display: none!important; }
 
-
 #cxpmClientAccountWidget:after { content: ''; position: absolute; top: 15px; right: -25px; transform: rotate(45deg); width: 4px; height: 4px; background: #3b717e; }
 
 html:lang(en) #cxpmClientAccountWidget { right: 350px; }
+
+
