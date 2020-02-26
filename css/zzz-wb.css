@@ -949,7 +949,6 @@ body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
 .site-footer .inside .footer-other-member {
     width: auto;
 }
-
 /* ------------------------------------------------------------ *\
 	facelift 2019
 \* ------------------------------------------------------------ */
@@ -1231,7 +1230,7 @@ body.body-corpo.front #zone4:before { display: none; }
 	Site Banner
 \* ------------------------------------------------------------ */
 
-.site-banner { padding: 14px 0 19px; position: absolute; border: 0; box-shadow: 0; }
+.site-banner { padding: 14px 0 19px; position: absolute; border: 0; box-shadow: 0; z-index: 900; }
 .is-stuck.site-banner { border: 0; box-shadow: 0!important; }
 .site-banner .inside { width: 100%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; height: auto; padding: 0 23px; }
 
