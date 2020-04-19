@@ -1039,9 +1039,9 @@ nav ol { list-style: none outside none; }
 	Base
 \* ------------------------------------------------------------ */
 
-body.front { font-family: 'Gotham Book', sans-serif; font-size: 15px; line-height: 1.67; color: #111617; font-weight: normal; }
+body { font-family: 'Gotham Book', sans-serif; font-size: 15px; line-height: 1.67; color: #111617; font-weight: normal; }
 
-body.front p { margin-top: 0; margin-bottom: 1.63em; line-height: inherit; }
+body p { margin-top: 0; margin-bottom: 1.63em; line-height: inherit; }
 
 body.body-corpo.front .site-wrapper { max-width: 100%; }
 body.body-corpo.front #main { background: url(images/grey-pattern.png) no-repeat center top; background-size: 100%; }
