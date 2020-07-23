@@ -948,7 +948,9 @@ body.body-corpo.front #zone1 .cxp-pagination .grid-la-list:after {border: none }
 .site-footer .inside .footer-other-member {
     width: auto;
 }
-/* ------------------------------------------------------------ *\
+
+
+ /* ------------------------------------------------------------ *\
 	facelift 2019
 \* ------------------------------------------------------------ */
 
@@ -1669,7 +1671,8 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cx
 body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cxp-pagination .la-list .la-item-title:hover { text-decoration: none; }
 
 /*  Entry  */
-body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cxp-pagination .la-list .la-item-desc { font-size: 13px; line-height: 1.92; color: #111617; letter-spacing: .025em; }
+body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cxp-pagination .la-list .la-item-desc { font-size: 13px; line-height: 1.92; color: #111617; letter-spacing: .025em; float: left;
+}
 
 /*  Button  */
 body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cxp-pagination .la-list .link-read-more { position: absolute; bottom: 0; left: 21px; display: inline-block; padding: 12px 21px; background: #3b717e; font-family: 'Gotham', sans-serif; font-size: 12px; line-height: 1; color: #fff; font-weight: 900; letter-spacing: -.025em; text-transform: uppercase; text-align: center; text-decoration: none; font-style: normal; }
@@ -2204,3 +2207,7 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 	#cxpmClientAccountWidget { padding-right: 58px; }
 	#cxpmClientAccountWidget:after { top: 12px; right: 33px; }
 }
+
+
+/*Div*/
+.article-intro { line-height: 1.65em; font-style: italic; }
