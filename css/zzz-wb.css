@@ -4435,3 +4435,25 @@ body.body-corpo.front #zone1 .la-slider.slider.cxp-swiper article.la-item .slide
 body.body-corpo.front #zone1 .la-slider.slider.cxp-swiper:after {
     background: none;
 }
+.list-stats li strong {
+    color: #003334;
+}
+.list-stats li h5 {
+    color: #003334;
+}
+body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .cxp-pagination .la-list .link-read-more {
+    background: #003334;
+}
+.section-newsletter {
+    display: block !important;
+    position: relative;
+    top: auto;
+    left: auto;
+    z-index: 0;
+    transform: translateX(20px);
+    max-width: 1000px;
+    padding: 103px 110px 97px 132px;
+    margin: 100px auto 124px;
+    background: #003334;
+    overflow: hidden;
+}
