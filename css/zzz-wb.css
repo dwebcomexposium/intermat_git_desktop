@@ -4428,3 +4428,10 @@ body.body-corpo.front .layout-2-col #zone2 .block-page.list-articles .inside .ma
 
 /*Div*/
 .article-intro { line-height: 1.65em; font-style: normal; }
+
+body.body-corpo.front #zone1 .la-slider.slider.cxp-swiper article.la-item .slider-image {
+    display: none;
+}
+body.body-corpo.front #zone1 .la-slider.slider.cxp-swiper:after {
+    background: none;
+}
